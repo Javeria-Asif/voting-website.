@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Website</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+<div class="wrapper">
+    <h2>Vote and Add Your Favorite Game</h2>
+
+    <div class="add-candidate">
+        <input type="text" id="newCandidateInput" placeholder="Enter new game name">
+        <button onclick="addCandidate()" >Add Game</button>
+    </div>
+
+    <div class="candidates-container" id="candidatesContainer">
+       
+    </div>
+</div>
+    <div class="vote-count" id="voteCountContainer">
+        <p>Vote Counts:</p>
+        
+    </div>
+    <script src="/app.js"></script>
+</body>
+
+</html>
